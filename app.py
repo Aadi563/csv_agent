@@ -4,7 +4,6 @@ import numpy as np
 import requests
 import os
 
-load_dotenv()
 GROQ_API_KEY = "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"
 
 headers = {
