@@ -2,11 +2,10 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import requests
-from dotenv import load_dotenv
 import os
 
 load_dotenv()
-GROQ_API_KEY = os.getenv("GROQ_API_KEY") or "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"
+GROQ_API_KEY = "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"
 
 headers = {
     "Authorization": f"Bearer {GROQ_API_KEY}",
